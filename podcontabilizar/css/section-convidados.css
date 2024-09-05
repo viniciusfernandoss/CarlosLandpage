@@ -1,0 +1,81 @@
+.convidados{
+    background-image: url('../img/background-convidados.png');
+    background-size: cover;
+    background-position: center;
+    color: white
+}
+
+#convidados{
+    font-family: var(--fonte-montserrat);
+}
+#convidados2 h2{
+    font-weight: 400;
+    color: rgba(189, 8, 3, 1);
+}
+
+.convidados-cards{
+    
+}
+.content-card{
+    background-color: rgba(15, 20, 31, 1);
+    transition: transform 0.3s ease-in-out;
+}
+.content-card:hover{
+    transform: scale(1.11);
+}
+.convidados-cards h2{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.convidados-cards img{
+    border-radius: 100%;
+    width: 50%;
+    border: 2.5px solid rgba(189, 8, 3, 1);
+}
+.convidados-cards a{
+    background-color: rgba(23, 30, 45, 1);
+    text-decoration: none;
+    color: white;
+    padding: 0.6rem 1.1rem;
+    transition: 0.5s;
+}
+.convidados-cards a:hover{
+    background-color: rgba(189, 8, 3, 1);
+}
+.redes{
+    text-align: center;
+}
+.redes a{
+    padding: 3.5% 4%;
+    margin: 0 2%;
+    background-color: rgba(23, 30, 45, 1);
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+
+
+#ultimos-episodios{
+
+}
+#ultimos-episodios h2{
+    color: rgba(189, 8, 3, 1);
+    font-weight: 400;
+}
+.ultimos-eps img{
+    width: 100%;
+}
+
+#ultimos-episodios a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(23, 30, 45, 1);
+    padding: 0.6rem 1.5rem;
+    transition: 0.5s;
+}
+
+#ultimos-episodios a:hover{
+    background-color: rgba(189, 8, 3, 1);
+}

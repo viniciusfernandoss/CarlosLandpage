@@ -1,0 +1,27 @@
+footer{
+    background: linear-gradient(to left, #27273F, #0B0E15);
+    color: white;
+}
+footer img{
+    width: 50%;
+}
+
+#nav-footer a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-size: 1.2rem;
+}
+#nav-footer a:hover{
+    color: rgba(189, 8, 3, 1);
+}
+
+#redes-footer a{
+    color: white;
+    transition: 0.5s;
+    font-size: 1.5rem;
+}
+
+#redes-footer a:hover{
+    color: rgba(189, 8, 3, 1);
+}

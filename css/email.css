@@ -1,0 +1,74 @@
+.container-email{
+    padding: 3% 0;
+    width: 100%;
+    background: linear-gradient(90deg, #CC0C08 0%, #660604 100%);
+    border-radius: 72px 0 72px 0;
+    font-family: var(--fonte-inter);
+}
+.label-email{
+
+}
+.label-email p{
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 48px;
+    color: white;
+    margin: 0;
+}
+.label-email h1{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 48px;
+    color: white;   
+}
+.container-email input{
+    padding: 2% 30% 2% 3%;
+    border-radius: 24px;
+    border: none;
+    margin-right: 1%;
+}
+.container-email a{
+    font-size: 1.3rem;
+    border-style: none;
+    text-decoration: none;
+    background-color: white;
+    color: #E22929;
+    font-weight: 800;
+    transition: 0.5s;
+    border-radius: 24px 0 24px 0;
+    padding: 3% 6%;
+}
+.container-email a:hover{
+    background-color: #E22929;
+    color: white;
+    border-radius: 0px 24px 0px 24px;
+}
+
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+    .container-email p{
+        font-size: 1rem;
+        line-height: 24px;
+        width: auto;
+    }
+    .container-email h1{
+        font-size: 1rem;
+        line-height: 24px;
+    }
+    .container-email input{
+        padding: 1% 15% 2% 5%;
+        border: none;
+        margin-right: 1%;
+    }
+    .container-email button{
+        font-size: 0.8rem;
+        border-radius: 16px 0 16px 0;
+        padding: 2% 3%;
+    }
+    .container-email{
+        padding: 7% 0;
+        border-radius: 48px 0 48px 0;
+    }
+}

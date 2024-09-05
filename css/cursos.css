@@ -1,0 +1,69 @@
+#Cursos {
+    color: #fff;
+}
+#Cursos h2{
+    font-size: 4rem;
+    font-family: var(--fonte-inter);
+    font-weight: 900;
+    line-height: 64px;
+    color: #E22929;
+}
+
+.card-list .card-item{
+    color: white;
+    background-color: #1E1E1E;
+    width: 400px;
+    height: 600px;
+    padding: 35px;
+}
+
+.card-list .card-item:hover{
+    background: linear-gradient(90deg, #CC0C08 0%, #660604 100%);
+}
+
+.desc-card{
+    color: rgb(169, 169, 169);
+}
+.btn-card{
+    text-decoration: none;
+    color: #B71721;
+    transition: color 0.3s;
+}
+.card-item:hover .btn-card{
+    color: white;
+}
+
+.card-list .card-item .card-image{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+.slider-wrapper .swiper-pagination-bullet {
+    background-color: #E22929;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .slider-wrapper-btn{
+    color: #E22929;
+    margin-top: -50px;
+    transition: 0.3s ease;
+}
+.slider-wrapper .slider-wrapper-btn:hover{
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .slider-wrapper{
+        margin: 0 10px 40px;
+    }
+
+    .slider-wrapper .slider-wrapper-btn{
+        display: none;
+    }
+}

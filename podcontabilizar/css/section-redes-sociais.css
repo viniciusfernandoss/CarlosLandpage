@@ -1,0 +1,29 @@
+#redes-sociais{
+    background: linear-gradient(to left, #27273F, #0B0E15);
+    color: white;
+}
+
+.text-redes-sociais{
+    font-family: var(--fonte-inter);
+
+}
+.text-redes-sociais h2{
+    font-weight: 400;
+    color: rgba(189, 8, 3, 1);
+    line-height: 20px;
+}
+.text-redes-sociais h3{
+    font-weight: 800;
+}
+
+#links-redes{
+
+}
+#links-redes a{
+    font-size: 2rem;
+    color: #BD0803;
+    transition: 0.5s;
+}
+#links-redes a:hover{
+    color: white;
+}

@@ -1,0 +1,165 @@
+header{
+    background-image: url('../img/background-header.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white
+}
+#navbar-header{
+    padding: 0;
+    top: 0px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: #0b0b15de;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+#fale-conosco{
+    background-color: #BD0803;
+    color: white;
+    padding: 0.7% 1.4%;
+    border-radius: 24px;
+    transition: 0.5s;
+    animation: pulse 1.5s infinite;
+}
+#fale-conosco:hover{
+    background-color: white;
+    color: #BD0803;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(136, 26, 26, 1);
+    }
+    70%{
+        box-shadow: 0 0 0 25px rgba(92, 168, 44, 0);
+    }
+    100%{
+        box-shadow: rgba(92, 168, 44, 0);
+    }
+    
+}
+
+
+
+.nav-item a{
+    font-size: 1.2rem;
+    color: white;
+}
+.nav-item a:hover{
+    color: #BD0803;
+}
+.nav-item{
+    border-bottom: 1px solid transparent;
+}
+.nav-item:hover{
+    border-bottom: 1px solid #BD0803;
+}
+
+
+
+nav{
+    background-color: transparent;
+}
+.navbar-brand{
+    width: 35%;
+}
+.logo-podcontabilizar{
+    width: 70%;
+}
+
+#inicio{
+    padding-top: 14vh;
+}
+#inicio h1, h2, p{
+    font-family: var(--fonte-montserrat);
+}
+#inicio h1{
+    font-weight: 800;
+    color: white;
+    line-height: 35px;
+}
+#inicio h4{
+    font-weight: 400;
+    color: white;
+}
+#inicio h4 strong{
+    font-weight: 800;
+    color: white;
+}
+#inicio p{
+    font-weight: 300;
+    color: white;
+}
+#inicio strong{
+    color: rgba(189, 8, 3, 1);
+}
+
+.botoes-inicio{
+    color: white;
+}
+
+.btn-entre-em-contato-inicio{
+    background-color: #BD0803;
+    color: white;
+    text-decoration: none;
+    border-radius: 24px;
+    padding: 0.5rem 1rem;
+    transition: 0.5s;
+}
+.btn-entre-em-contato-inicio:hover{
+    background-color: white;
+    color: #BD0803;
+}
+
+.btn-assistir-canal-inicio{
+    background-color: #171E2D;
+    color: white;
+    text-decoration: none;
+    border-radius: 24px;
+    padding: 0.5rem 1rem;
+    transition: 0.5s;
+}
+.btn-assistir-canal-inicio:hover{
+    background-color: white;
+    color: #171E2D;
+}
+
+#foto-microfone{
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+    animation: microfone 3s infinite;
+}
+
+@keyframes microfone{
+    0%{
+        transform: scale(1.3);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+    
+}
+
+/* 
+    .content-card{
+    background-color: rgba(15, 20, 31, 1);
+    transition: transform 0.3s ease-in-out;
+}
+.content-card:hover{
+    transform: scale(1.11);
+}
+*/
+
+@media (max-width: 992px){
+    .navbar-brand{
+        width: 60%;
+    }
+    #inicio{
+        height: 70vh;
+        margin-top: 0;
+        display: flex;
+    }
+}

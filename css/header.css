@@ -1,0 +1,82 @@
+.background-header{
+    background-image: url('../img/background-header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    color: #DD0708;
+    position: relative;
+}
+.navbar a{
+    color: #DD0708;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav .bi{
+    font-size: 2.5rem;
+}
+.navbar-toggler{
+    color: #DD0708;
+    font-size: 0.8rem;
+    padding: 4px;
+}
+.navbar-toggler-icon{
+    color: #DD0708;
+}
+
+
+
+#text-header p{
+    font-family: var(--fonte-inter);
+    font-size: 300%;
+    font-weight: 900;
+    line-height: 51px;
+    color: white;
+    margin-top: 30%;
+}
+#text-header p strong{
+    color: #E22929;
+}
+#foto-carlos{
+    width: 120%;
+    height: auto;
+}
+
+@media (max-width: 992px){
+    #text-header{
+        padding: 30% 0;
+        width: 100%;
+    }
+    #text-header p{
+        margin-top: 5%;
+    }
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+    }
+    .bi{
+        font-size: 300%;
+    }
+}
+@media (max-width: 768px){
+    #text-header{
+        padding: 30% 0;
+        width: 70%;
+    }
+    #text-header p{
+        font-size: 125%;
+        line-height: 24px;
+        margin-top: 1%;
+    }
+    .navbar-brand img{
+        width: 150px;
+        height: auto;
+    }
+}

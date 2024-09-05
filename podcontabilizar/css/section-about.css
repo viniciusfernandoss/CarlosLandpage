@@ -1,0 +1,77 @@
+.background-about{
+    background-image: url('../img/background-about.png');
+    background-size: cover;
+    background-position: center;
+    color: white
+}
+#foto-carlos-about img{
+    border-radius: 100%;
+}
+
+.btn-about{
+    text-decoration: none;
+    background-color: #BD0803;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+.btn-about:hover{
+    background-color: white;
+    color: #BD0803;
+}
+
+.content1-row-about{
+
+}
+.content1-row-about h1{
+    font-family: var(--fonte-montserrat);
+    font-weight: 400;
+    color: rgba(189, 8, 3, 1);
+}
+
+.titulo-content1{
+
+}
+.titulo-content1 h2{
+    font-family: var(--fonte-montserrat);
+    font-weight: 400;
+    color: rgba(189, 8, 3, 1);
+}
+
+.content2-row-about p{
+    font-size: 0.9rem;
+}
+.content2-row-about{
+    
+}
+
+
+
+#content2-about{
+    font-family: var(--fonte-montserrat);
+}
+#content2-about h2{
+    color: rgba(189, 8, 3, 1);
+    font-weight: 400;
+}
+.temas{
+    height: 200px;
+    border: 2px solid #BD0803;
+    border-radius: 32px;
+}
+
+@media (max-width: 1900px){
+    .btn-about{
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 992px){
+    .temas{
+        height: 125px;
+        border: 2px solid #BD0803;
+        border-radius: 32px;
+        margin: 0 50px;
+    }
+}

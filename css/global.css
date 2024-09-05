@@ -1,0 +1,111 @@
+@import url('header.css');
+@import url('sobre.css');
+@import url('email.css');
+@import url('destaques.css');
+@import url('palestrantes.css');
+@import url('cursos.css');
+@import url('footer.css');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte-inter: "Inter", sans-serif;
+    --fonte-montserrat: "Montserrat", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body{
+    width: 100%;
+    background-color: black;
+    overflow: scroll;
+    
+}
+
+.pulse{
+    font-size: 3.5rem;
+    border-radius: 16px;
+    position: fixed;
+    bottom: 5%;
+    left: 3%;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #8f0808;
+    box-shadow: 0 0 0 0 rgba(226, 41, 41, 0);
+    animation: pulse 2s infinite;
+    transition: all 0.3s ease 0s;
+    transition: transform 0.3s ease-in-out;
+}
+.pulse:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.texto-branco{
+    color: white;
+    font-size: 6rem;
+}
+
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(136, 26, 26, 0.8);
+    }
+    70%{
+        color: white;
+        box-shadow: 0 0 0 17px rgba(92, 168, 44, 0);
+    }
+    100%{
+        box-shadow: rgba(92, 168, 44, 0);
+    }
+    
+}
+
+@media (max-width: 992px){
+    .pulse{
+        font-size: 0.8rem; 
+        bottom: end;
+        left: 3%;
+    }
+}
+
+.scroll-animation{
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translateX(-30%);
+    filter: blur(5px);
+}
+
+.scroll-animation2{
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translateX(30%);
+    filter: blur(5px);
+}
+
+.scroll-show{
+    opacity: 1;
+    transition: all 0.5s;
+    transform: translateX(0%);
+    filter: blur(0px);
+}
+
+@media (max-width: 992px){
+    .scroll-animation{
+        transform: translateY(-30%);
+    }
+    
+    .scroll-animation2{
+        transform: translateY(30%);
+    }
+    .scroll-show{
+        transform: translateY(0%);
+    }
+}
