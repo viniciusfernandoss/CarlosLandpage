@@ -116,7 +116,6 @@
     line-height: 20px;
 }
 
-
 .card-destaque1:hover p{
     color: rgb(209, 209, 209);
 }
@@ -143,4 +142,13 @@
 
 .btn-card-destaque{
 
+}
+
+/*
+==================================
+            Animações
+==================================
+*/
+.animacao-card1, .animacao-card2, .animacao-card3{
+    visibility: hidden;
 }

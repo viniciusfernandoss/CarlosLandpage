@@ -1,10 +1,29 @@
-// window.revelara = ScrollReveal({reset:true})
+/*
+========================================
+            ScrollReveal
+========================================
+*/
+window.revelar = ScrollReveal({reset:true})
 
-// // Destaques
+//Sobre
+revelar.reveal('.animacao-txt-sobre', {
+    duration: 1500,
+    distance: '120px'
+})
 
-// revelara.reveal('.animation-test', {
-//     duration: 2000,
-//     distance: '90px'
-// })
-
-// ScrollReveal().reveal('.animation-test');
+//Destaque/Cursos
+revelar.reveal('.animacao-card1', {
+    duration: 1000,
+    distance: '120px',
+    delay: 200
+})
+revelar.reveal('.animacao-card2', {
+    duration: 1000,
+    distance: '120px',
+    delay: 400
+})
+revelar.reveal('.animacao-card3', {
+    duration: 1000,
+    distance: '120px',
+    delay: 600
+})

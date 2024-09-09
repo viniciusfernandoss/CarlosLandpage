@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/global.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/reveal.js" defer></script>
 </head>
 <body>
     <a href="https://wa.me/5581982026619" class="pulse d-flex justify-content-center align-items-center" target="_blank">
@@ -59,7 +61,7 @@
         <div class="container container-header" >
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-6 d-flex align-items-start" id="text-header">
-                    <p>
+                    <p class="headline">
                         <strong>TRANSFORME</strong> SUA <strong>VISÃO</strong> EM <strong>AÇÃO,</strong> COM <strong>INSIGHT</strong> DE QUEM ENTENDE TUDO DO <strong>MERCADO.</strong>
                     </p>
                 </div>
@@ -79,7 +81,7 @@
             <div class="row titulo-sobre-background">
                 <h1 id="titulo-sobre">SOBRE</h1>
             </div>
-            <div class="row numeros-row d-flex justify-content-center scroll-animation">
+            <div class="row numeros-row d-flex justify-content-center animacao-txt-sobre">
                 <div class="col-12 col-lg-4 numeros d-flex justify-content-center">
                     <img class="img-fluid" src="img/1-removebg-preview.png" alt="">
                 </div>
@@ -92,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row numeros-row d-flex justify-content-center flex-row-reverse scroll-animation2">
+            <div class="row numeros-row d-flex justify-content-center flex-row-reverse animacao-txt-sobre">
                 <div class="col-12 col-lg-4 numeros d-flex justify-content-center">
                     <img class="img-fluid" src="img/2-removebg-preview.png" alt="">
                 </div>
@@ -105,7 +107,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row numeros-row d-flex justify-content-center scroll-animation">
+            <div class="row numeros-row d-flex justify-content-center animacao-txt-sobre">
                 <div class="col-12 col-lg-4 numeros d-flex justify-content-center">
                     <img class="img-fluid" src="img/3-removebg-preview.png" alt="">
                 </div>
@@ -118,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row numeros-row d-flex justify-content-center flex-row-reverse scroll-animation2">
+            <div class="row numeros-row d-flex justify-content-center flex-row-reverse animacao-txt-sobre">
                 <div class="col-12 col-lg-4 numeros d-flex justify-content-center">
                     <img class="img-fluid" src="img/4-removebg-preview.png" alt="">
                 </div>
@@ -167,8 +169,8 @@
             <p class="text-center mb-5">
                 Confira as principais novidades e fique por dentro dos nossos eventos e conteúdos exclusivos. Clique para saber mais!
             </p>
-            <div class="row justify-content-evenly scroll-animation">
-                <div class="col-lg-3 text-start rounded-3 card-destaque1 pt-3 pb-5 px-5 mb-5 mx-lg-3">
+            <div class="row justify-content-evenly">
+                <div class="col-lg-3 text-start rounded-3 card-destaque1 pt-3 pb-5 px-5 mb-5 mx-lg-3 animacao-card1">
                     <i class="bi bi-fast-forward-btn"></i>
                     <h2 class="m-0">Lives</h2>
                     <p>Participe das nossas lives e interaja ao vivo.</p>
@@ -176,7 +178,7 @@
                         saiba mais ></i>
                     </a>
                 </div>
-                <div class="col-lg-3 text-start rounded-3 card-destaque1 pt-3 pb-5 px-5 mb-5 mx-lg-3">
+                <div class="col-lg-3 text-start rounded-3 card-destaque1 pt-3 pb-5 px-5 mb-5 mx-lg-3 animacao-card2">
                     <i class="bi bi-broadcast-pin"></i>
                     <h2 class="m-0">Podcast</h2>
                     <p>Ouça nossos podcasts e fique por dentro das novidades.</p>
@@ -184,7 +186,7 @@
                         saiba mais ></i>
                     </a>
                 </div>
-                <div class="col-lg-3 text-start rounded-3 card-destaque1 pt-3 pb-5 px-5 mb-5 mx-lg-3">
+                <div class="col-lg-3 text-start rounded-3 card-destaque1 pt-3 pb-5 px-5 mb-5 mx-lg-3 animacao-card3">
                     <i class="bi bi-person-video3"></i>
                     <h2 class="m-0">Palestras</h2>
                     <p>Assista às nossas palestras e amplie seus conhecimentos.</p>
@@ -229,7 +231,7 @@
         <div class="content-curso swiper my-4">
             <div class="slider-wrapper">
                 <div class="card-list swiper-wrapper">
-                    <div class="card-item rounded-3 swiper-slide">
+                    <div class="card-item rounded-3 swiper-slide animacao-card1">
                         <img src="img/img-curso1.webp" alt="" class="card-image">
                         <h3 class="titulo-card mt-4">
                             Técnicas de SEO
@@ -237,12 +239,12 @@
                         <p class="desc-card">
                             Desbloqueie o potencial do seu site com nosso curso de Técnicas de SEO!
                         </p>
-                        <a href="https://linktr.ee/carlosantos" target="_blank" class="btn-card rounded-3 py-1 px-3">
+                        <a href="https://linktr.ee/carlosantos" target="_blank" class="btn-card">
                             Ver mais
                         </a>
                     </div>
             
-                    <div class="card-item rounded-3 swiper-slide">
+                    <div class="card-item rounded-3 swiper-slide animacao-card2">
                         <img src="img/img-curso2.webp" alt="" class="card-image">
                         <h3 class="titulo-card mt-4">
                             Ferramentas do Gestor
@@ -255,7 +257,7 @@
                         </a>
                     </div>
 
-                    <div class="card-item rounded-3 swiper-slide">
+                    <div class="card-item rounded-3 swiper-slide animacao-card3">
                         <img src="img/img-curso3.jpg" alt="" class="card-image">
                         <h3 class="titulo-card mt-4">Curso 3</h3>
                         <p class="desc-card">
@@ -266,7 +268,7 @@
                         </a>
                     </div>
                     
-                    <div class="card-item rounded-3 swiper-slide">
+                    <div class="card-item rounded-3 swiper-slide animacao-card3">
                         <img src="img/foto-curso.png" alt="" class="card-image">
                         <h3 class="titulo-card mt-4">Curso 4</h3>
                         <p class="desc-card">

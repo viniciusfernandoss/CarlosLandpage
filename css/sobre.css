@@ -64,3 +64,13 @@
         line-height: 16px;
     }
 }
+
+
+/*
+==================================
+            Animações
+==================================
+*/
+.animacao-txt-sobre{
+    visibility: hidden;
+}
