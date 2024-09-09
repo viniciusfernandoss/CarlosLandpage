@@ -1,4 +1,4 @@
-.section-palestrante{
+/* .section-palestrante{
     width: 100%;
     background-image: url('../img/teste-bg-p.png');
     background-size: cover;
@@ -74,4 +74,35 @@
         padding: 1% 0%;
         width: 60%;
     }
+} */
+
+.foto-carlos-palestrante{
+    
+}
+
+.content-palestrante{
+    color: white;
+    width: 84%;
+}
+.content-palestrante h2{
+    font-size: 4.5rem;
+    color: #E22929;
+}
+.content-palestrante h3{
+    font-size: 2rem;
+}
+.content-palestrante p{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.content-palestrante a{
+    text-decoration: none;
+    background-color: #E22929;
+    color: white;
+    font-weight: 700;
+    border-radius: 18px 0 18px 0;
+    transition: 0.5s;
+}
+.content-palestrante a:hover{
+    border-radius: 0px 18px 0px 18px;
 }
