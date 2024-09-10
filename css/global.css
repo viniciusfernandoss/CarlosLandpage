@@ -48,11 +48,6 @@ body{
     color: white;
     transform: scale(1.2);
 }
-.texto-branco{
-    color: white;
-    font-size: 6
-    rem;
-}
 
 
 @keyframes pulse{
@@ -62,6 +57,19 @@ body{
     70%{
         color: white;
         box-shadow: 0 0 0 17px rgba(92, 168, 44, 0);
+    }
+    100%{
+        box-shadow: rgba(92, 168, 44, 0);
+    }
+    
+}
+
+@keyframes pulse2{
+    0%{
+        box-shadow: 0 0 0 0 rgba(88, 17, 17);
+    }
+    70%{
+        box-shadow: 0 0 0 30px rgba(92, 168, 44, 0);
     }
     100%{
         box-shadow: rgba(92, 168, 44, 0);

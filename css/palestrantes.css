@@ -101,8 +101,11 @@
     color: white;
     font-weight: 700;
     border-radius: 18px 0 18px 0;
-    transition: 0.5s;
+    animation: pulse2 2s infinite;
+    transition: all 0.3s ease 0s;
 }
 .content-palestrante a:hover{
     border-radius: 0px 18px 0px 18px;
+    color: #E22929;
+    background-color: white;
 }
