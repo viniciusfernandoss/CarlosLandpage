@@ -2,10 +2,8 @@
     color: #fff;
 }
 #Cursos h2{
-    font-size: 3rem;
     font-family: var(--fonte-inter);
     font-weight: 600;
-    line-height: 50px;
     color: white;
 }
 
@@ -14,7 +12,6 @@
     color: white;
     background: #1E1E1E;
     width: 400px;
-    height: 550px;
     padding: 20px;
     transition: 1s ease;
 }
@@ -25,18 +22,22 @@
 }
 .txt-vermelho{
     color: #E22929;
-    font-size: 10rem;
     font-weight: 900;
+    font-size: 6rem;
+    line-height: 80px;
 }
 
 .titulo-card{
-    font-size: 1.3rem;
+    font-family: var(--fonte-inter);
+    font-size: 1.5rem;
 }
 .desc-card{
-    font-size: 1rem;
+    font-family: var(--fonte-noto-sans);
+    font-size: 0.8rem;
     color: rgb(169, 169, 169);
 }
 .btn-card{
+    font-family: var(--fonte-noto-sans);
     text-decoration: none;
     background-color: #B71721;
     color: white;
@@ -83,5 +84,27 @@
 
     .slider-wrapper .slider-wrapper-btn{
         display: none;
+    }
+}
+
+@media (min-width: 1920px) { /* modificações para resoluções a partir de 1920px */
+    #Cursos h2{
+        font-size: 3rem;
+        line-height: 50px;
+    }
+    .txt-vermelho{  
+        font-size: 10rem;
+        line-height: 150px;
+    }
+
+
+    .card-item{
+        height: 575px;
+    }
+    .titulo-card{
+        font-size: 1.8rem;
+    }
+    .desc-card{
+        font-size: 0.9rem;
     }
 }

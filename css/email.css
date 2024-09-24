@@ -9,16 +9,16 @@
 
 }
 .label-email p{
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 200;
-    line-height: 48px;
+    line-height: 24px;
     color: white;
     margin: 0;
 }
 .label-email h1{
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 900;
-    line-height: 48px;
+    line-height: 24px;
     color: white;   
 }
 .container-email input{
@@ -44,9 +44,17 @@
     border-radius: 0px 24px 0px 24px;
 }
 
-@media (max-width: 992px){
-
+@media (min-width: 1920px){
+    .label-email p{
+        font-size: 2rem;
+        line-height: 48px;
+    }
+    .label-email h1{
+        font-size: 2rem;
+        line-height: 48px;  
+    }
 }
+
 @media (max-width: 768px){
     .container-email p{
         font-size: 1rem;
