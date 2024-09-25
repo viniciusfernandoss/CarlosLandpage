@@ -88,6 +88,7 @@
     color: #E22929;
     font-family: var(--fonte-montserrat);
     font-weight: 900;
+    font-size: 3rem;
 }
 .content-palestrante h3{
     font-family: var(--fonte-montserrat);
