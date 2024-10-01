@@ -108,3 +108,10 @@
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 576px){
+    .txt-vermelho{
+        font-size: 4.5rem;
+        line-height: 80px;
+    }
+}
