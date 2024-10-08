@@ -1,3 +1,29 @@
+#footer-menu{
+
+}
+#footer-menu h2{
+    color: #E22929;
+    font-family: var(--fonte-montserrat);
+    font-weight: 700;
+}
+
+.content-footer-menu1{
+
+}
+.content-footer-menu1 li{
+    list-style: none;
+}
+.content-footer-menu1 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+
+
+
+
 .content1-footer{
 
 }
