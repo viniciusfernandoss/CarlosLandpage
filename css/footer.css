@@ -82,10 +82,7 @@ footer{
     width: 312px;
 }
 @media (max-width: 992px){
-    footer{
-        font-size: 1.5rem;
-    }
-    .bi{
+    footer .bi{
         font-size: 1.5rem;
     }
     .content1-footer{
