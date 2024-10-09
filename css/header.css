@@ -1,5 +1,5 @@
 .background-header{
-    background-image: url('../img/background-header.jpg');
+    background-image: url('../img/background-header.webp');
     background-size: cover;
     background-position: center;
 }
@@ -50,7 +50,7 @@
 
 @media (max-width: 992px){
     #text-header{
-        padding: 30% 0;
+        padding: 10% 0;
         width: 100%;
     }
     #text-header p{
@@ -67,7 +67,6 @@
 }
 @media (max-width: 768px){
     #text-header{
-        padding: 30% 0;
         width: 70%;
     }
     #text-header p{

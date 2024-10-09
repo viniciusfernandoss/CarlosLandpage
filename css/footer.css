@@ -1,39 +1,71 @@
-#footer-menu{
-
-}
 #footer-menu h2{
     color: #E22929;
     font-family: var(--fonte-montserrat);
     font-weight: 700;
 }
 
-.content-footer-menu1{
-
+footer{
+    font-size: 1.2rem;
 }
+
 .content-footer-menu1 li{
     list-style: none;
+    color: white;
 }
 .content-footer-menu1 a{
     text-decoration: none;
     color: #ffffff;
     font-weight: 300;
-    font-size: 1.3rem;
+    transition: 0.15s;
+}
+.content-footer-menu1 a:hover{
+    font-weight: 600;
 }
 
+.content-footer-menu2 li{
+    list-style: none;
+}
+.content-footer-menu2 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    transition: 0.15s;
+}
+.content-footer-menu2 a:hover{
+    font-weight: 600;
+}
+.content-footer-menu2 .bi{
+    color: #9b1f1f;
+}
 
+.content-footer-menu3{
+    color: white;
+}
+.content-footer-menu3 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    transition: 0.15s;
+}
+.content-footer-menu3 a:hover{
+    font-weight: 600;
+}
+.content-footer-menu3 .bi{
+    color: #9b1f1f;
+}
 
 
 
 .content1-footer{
 
 }
-.content1-footer h1{
+.content1-footer h2{
     font-family: var(--fonte-inter);
     font-size: 1.2rem;
     font-weight: 400;
     color: #ffffff;
 }
-.content2-footer h1{
+.content2-footer h2{
     font-family: var(--fonte-inter);
     font-size: 1.2rem;
     font-weight: 400;
@@ -43,17 +75,6 @@
 .img-logo-promova{
     width: 35%;
 }
-.redes-sociais{
-    margin-top: 1.5%;
-}
-.redes-sociais a{
-    color: #DD0708;
-    font-size: 2rem;
-    transition: 0.3s;
-}
-.redes-sociais a:hover{
-    color: white;
-}
 
 
 
@@ -61,15 +82,16 @@
     width: 312px;
 }
 @media (max-width: 992px){
+    footer{
+        font-size: 1.5rem;
+    }
+    .bi{
+        font-size: 1.5rem;
+    }
     .content1-footer{
         margin-bottom: 10%;
     }
-    .redes-sociais a{
-        font-size: 1rem;
-    }
 }
 @media (max-width: 768px){
-    .redes-sociais a{
-        font-size: 0.7rem;
-    }
+
 }

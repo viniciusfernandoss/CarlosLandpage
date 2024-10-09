@@ -1,11 +1,11 @@
 .background-sobre{
-    background-image: url('../img/background-sobre.jpg');
+    background-image: url('../img/background-sobre.webp');
     background-size: cover;
     background-position: center;
 }
 .titulo-sobre-background{
     width: 100%;
-    background-image: url('../img/SOBRE-Titulo.png');
+    background-image: url('../img/SOBRE-Titulo.webp');
     background-size: cover;
     background-position: center;
     margin-bottom: 3%;
