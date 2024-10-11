@@ -165,11 +165,12 @@
     ========================================
     -->
     <section class="destaque pt-5" id="destaque-nav">
-        <div class="container container-destaques pt-5 mt-5">           
-            <h2 class="text-center">DESTAQUES</h2>
-            <p class="text-center mb-5">
-                Confira as principais novidades e fique por dentro dos nossos eventos e conteúdos exclusivos. Clique para saber mais!
-            </p>
+        <h2 class="titulo-destaque text-center">DESTAQUES</h2>
+        <p class="descricao-destaque text-center mb-0">
+            Confira as principais novidades e fique por dentro dos nossos eventos e conteúdos exclusivos. Clique para saber mais!
+        </p>
+
+        <div class="container container-destaques d-none d-lg-block pt-5 mt-5">           
             <div class="row mx-4 justify-content-evenly">
                 <div class="col-lg-3 text-start rounded-3 card-destaque1 pt-3 pb-5 px-5 mb-5 mx-lg-3 animacao-card1">
                     <i class="bi bi-fast-forward-btn"></i>
@@ -195,6 +196,47 @@
                         saiba mais ></i>
                     </a>
                 </div>
+            </div>
+        </div>
+
+        <div class="container py-5 d-block d-lg-none">
+            <div class="swiper swiper-destaque-mobile">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide card-feedback">
+                        <div class="content-destaque-card-mobile rounded-3 card-destaque1 pt-3 pb-5 px-5 mb-5 mx-lg-3">
+                            <i class="bi bi-fast-forward-btn"></i>
+                            <h2 class="m-0">Lives</h2>
+                            <p>
+                                Participe das nossas lives e interaja ao vivo. <br><br>
+                            </p>
+                            <a class="btn-card-destaque align-items-center pb-4" href="https://www.youtube.com/@CarlosSantosContador/streams" target="_blank">
+                                saiba mais ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card-feedback">
+                        <div class="content-destaque-card-mobile rounded-3 card-destaque1 pt-3 pb-5 px-5 mb-5 mx-lg-3">
+                            <i class="bi bi-broadcast-pin"></i>
+                            <h2 class="m-0">Podcast</h2>
+                            <p>Ouça nossos podcasts e fique por dentro das novidades.</p>
+                            <a class="btn-card-destaque align-items-center pb-4" href="https://podcontabilizar.com.br/" target="_blank">
+                                saiba mais ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card-feedback">
+                        <div class="content-destaque-card-mobile rounded-3 card-destaque1 pt-3 pb-5 px-5 mb-5 mx-lg-3">
+                            <i class="bi bi-person-video3"></i>
+                            <h2 class="m-0">Palestras</h2>
+                            <p>Assista às nossas palestras e amplie seus conhecimentos.</p>
+                            <a class="btn-card-destaque align-items-center pb-4" href="https://www.youtube.com/@CarlosSantosContador/streams" target="_blank">
+                                saiba mais ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
@@ -243,7 +285,7 @@
                 CURSOS
             </div>
         </h2>
-        <div class="content-curso swiper my-4">
+        <!-- <div class="content-curso swiper my-4">
             <div class="slider-wrapper">
                 <div class="card-list swiper-wrapper">
                     <div class="card-item rounded-3 swiper-slide">
@@ -289,6 +331,59 @@
 
                 <div class="swiper-pagination"></div>
 
+                <div class="slider-wrapper-btn swiper-button-prev"></div>
+                <div class="slider-wrapper-btn swiper-button-next"></div>
+            </div>
+        </div> -->
+
+        <div class="container my-5 d-block d-lg-none">
+            <div class="swiper swiper-cursos-mobile">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide card-feedback">
+                        <div class="card-item-mobile rounded-3">
+                            <img src="img/img-curso1.webp" alt="" class="card-image">
+                            <h3 class="titulo-card mt-4">
+                                Técnicas de SEO para o Mercado Contábil
+                            </h3>
+                            <p class="desc-card">
+                                Desbloqueie o potencial do seu site com nosso curso de Técnicas de SEO!
+                            </p>
+                            <a href="https://hotmart.com/pt-br/marketplace/produtos/tecnicas-de-seo-para-o-mercado-contabil/B85341148M?sck=HOTMART_PRODUCT_PAGE" target="_blank" class="btn-card py-1 px-3 rounded-4">
+                                Ver mais
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card-feedback">
+                        <div class="card-item-mobile rounded-3">
+                            <img src="img/img-curso2.webp" alt="" class="card-image">
+                            <h3 class="titulo-card mt-4">
+                                Ferramentas do Contador Gestor
+                            </h3>
+                            <p class="desc-card">
+                                Transforme sua prática contábil com nosso curso de Ferramentas do Contador Gestor!
+                            </p>
+                            <a href="https://hotmart.com/pt-br/marketplace/produtos/ferramentas-do-contador-gestor/E94398973C?sck=HOTMART_PRODUCT_PAGE" target="_blank" class="btn-card py-1 px-3 rounded-4">
+                                Ver mais
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card-feedback">
+                        <div class="card-item-mobile rounded-3">
+                            <img src="img/img-curso3.webp" alt="" class="card-image">
+                            <h3 class="titulo-card mt-4">
+                                Abertura de empresa do 0 aos 5 Dígitos
+                            </h3>
+                            <p class="desc-card">
+                                Abra sua empresa do 0 aos 5 dígitos com nosso curso completo!
+                            </p>
+                            <a href="https://pay.hotmart.com/E16647557T" target="_blank" class="btn-card py-1 px-3 rounded-4">
+                                Ver mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
                 <div class="slider-wrapper-btn swiper-button-prev"></div>
                 <div class="slider-wrapper-btn swiper-button-next"></div>
             </div>

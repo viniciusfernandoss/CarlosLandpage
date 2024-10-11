@@ -1,12 +1,12 @@
 
-.container-destaques h2{
+.titulo-destaque{
     font-size: 4rem;
     font-family: var(--fonte-inter);
     font-weight: 900;
     line-height: 51px;
     color: #E22929;
 }
-.container-destaques p{
+.descricao-destaque{
     color: white;
     font-size: 1.1rem;
 }
@@ -68,9 +68,6 @@
 
 
 @media (max-width: 768px){
-    .titulo-destaque h1{
-        font-size: 2rem;
-    }
     .cards{
         width: 300px;
     }
@@ -144,7 +141,7 @@
 }
 
 @media (max-width: 576px){
-    .container-destaques h2{
+    .titulo-destaque{
         font-size: 3rem;
         line-height: 51px;
     }

@@ -15,6 +15,13 @@
     padding: 20px;
     transition: 1s ease;
 }
+.card-item-mobile{
+    color: white;
+    background: #1E1E1E;
+    width: 400px;
+    padding: 20px;
+    transition: 1s ease;
+}
 
 .card-item:hover{
     background: linear-gradient(90deg, #CC0C08 0%, #660604 100%);
