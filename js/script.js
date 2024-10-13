@@ -58,10 +58,6 @@ const swiperOne = new Swiper('.swiper-cursos-mobile', {
       el: '.swiper-cursos-mobile .swiper-pagination',
       clickable: true,
     },
-    navigation: {
-         nextEl: '.swiper-cursos-mobile .swiper-button-next',
-         prevEl: '.swiper-cursos-mobile .swiper-button-prev',
-    },
 });
 
 
